@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.2
 
 import PackageDescription
 
@@ -11,5 +11,5 @@ let package = Package(
     .target(name: "Regex"),
     .testTarget(name: "RegexTests", dependencies: ["Regex"]),
   ],
-  swiftLanguageVersions: [.v4_2, .version("5")]
+  swiftLanguageVersions: [.v5]
 )
